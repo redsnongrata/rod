@@ -1,26 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
-main{
-    background-color: rgb(225, 54, 54);
+body{
+  background-image: url('./24768.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+main {
+  color:white;
+  font-weight: bold;
+}
+
+
 h2,p{
     color: burlywood;
+    font-weight: bold;
 }
-ul{
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-li{
-    list-style-type: none;
-    text-decoration: none;
-}
+
+
 form {
     display: flex;
     flex-direction: column;
@@ -58,4 +63,35 @@ form {
     border: 1px solid #fff;
     background: transparent;
     color: #fff;
+  }
+
+  header nav ul {
+    display: flex;
+    gap : 15px;
+    
+  }
+
+  header{
+
+  padding: 3%;
+  background-color: black;
+  }
+
+  header a {
+    color: #fff;
+  }
+
+  .maClassSection{
+
+    text-align: center;
+    padding: 2%;
+  }
+
+
+  footer{
+    background-color: black;
+    text-align: center;
+    padding: 2%;
+    color: #ffffff;
+    font-weight: bold;
   }
